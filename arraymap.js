@@ -2,8 +2,8 @@
 
 
 
-// funcão Nativa para mapear o array 
+// funcão Nativa para adicionar elemento no   array 
 
-const diasDaSemana = ["domingo", "segunda-feira", "terça-feira", "Quarta-feira", "Quinta-feira"];
-diasDaSemana.map( (dia)=> console.log(dia));
-
+const diasDaSemana = ["domingo", "segunda-feira", "terça-feira",]
+diasDaSemana.push("Quarta");
+console.log(diasDaSemana);
